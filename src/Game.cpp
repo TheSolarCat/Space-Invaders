@@ -112,11 +112,20 @@ void Game::handleInput()
                 else if (event.key.code == sf::Keyboard::H)
                     config.setDifficulty(Difficulty::HARD);
                 else if (event.key.code == sf::Keyboard::Num1)
+                {
                     config.setTheme(Theme::CLASSIC);
+                    setThemeColors();
+                }
                 else if (event.key.code == sf::Keyboard::Num2)
+                {
                     config.setTheme(Theme::NEON);
+                    setThemeColors();
+                }
                 else if (event.key.code == sf::Keyboard::Num3)
+                {
                     config.setTheme(Theme::DARK);
+                    setThemeColors();
+                }
             }
             else if (!gameRunning && event.key.code == sf::Keyboard::R)
             {
@@ -240,9 +249,31 @@ void Game::showMenu()
         startText.setPosition(450, 650);
         startText.setFillColor(bulletColor);
         
+        // Draw theme indicator boxes
+        sf::RectangleShape themeBox1(sf::Vector2f(60, 60));
+        themeBox1.setPosition(700, 420);
+        themeBox1.setFillColor(sf::Color::Black);
+        themeBox1.setOutlineThickness(2);
+        themeBox1.setOutlineColor(config.getTheme() == Theme::CLASSIC ? sf::Color::Green : sf::Color::White);
+        
+        sf::RectangleShape themeBox2(sf::Vector2f(60, 60));
+        themeBox2.setPosition(800, 420);
+        themeBox2.setFillColor(sf::Color(10, 10, 30));
+        themeBox2.setOutlineThickness(2);
+        themeBox2.setOutlineColor(config.getTheme() == Theme::NEON ? sf::Color::Cyan : sf::Color::White);
+        
+        sf::RectangleShape themeBox3(sf::Vector2f(60, 60));
+        themeBox3.setPosition(900, 420);
+        themeBox3.setFillColor(sf::Color(20, 20, 20));
+        themeBox3.setOutlineThickness(2);
+        themeBox3.setOutlineColor(config.getTheme() == Theme::DARK ? sf::Color(200, 200, 255) : sf::Color::White);
+        
         window.draw(titleText);
         window.draw(difficultyText);
         window.draw(themeText);
+        window.draw(themeBox1);
+        window.draw(themeBox2);
+        window.draw(themeBox3);
         window.draw(startText);
     }
     

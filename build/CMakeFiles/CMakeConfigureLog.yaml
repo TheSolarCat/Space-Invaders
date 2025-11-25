@@ -109,7 +109,7 @@ events:
       Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
       Copyright (C) Microsoft Corporation. All rights reserved.
       
-      Build started 11/24/2025 7:19:27 PM.
+      Build started 11/24/2025 7:22:57 PM.
       Project "C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\4.2.0\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
         Creating directory "Debug\\".
@@ -135,7 +135,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.69
+      Time Elapsed 00:00:00.66
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1036,8 +1036,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-osqbo4"
-      binary: "C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-osqbo4"
+      source: "C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-8fic71"
+      binary: "C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-8fic71"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1047,32 +1047,32 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-osqbo4'
+        Change Dir: 'C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-8fic71'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_1aaf2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2019/BuildTools/MSBuild/Current/Bin/MSBuild.exe" cmTC_51092.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
         Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
         Copyright (C) Microsoft Corporation. All rights reserved.
         
-        Build started 11/24/2025 7:19:28 PM.
-        Project "C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-osqbo4\\cmTC_1aaf2.vcxproj" on node 1 (default targets).
+        Build started 11/24/2025 7:22:58 PM.
+        Project "C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fic71\\cmTC_51092.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-osqbo4\\Debug\\".
-          Creating directory "cmTC_1aaf2.dir\\Debug\\cmTC_1aaf2.tlog\\".
+          Creating directory "C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fic71\\Debug\\".
+          Creating directory "cmTC_51092.dir\\Debug\\cmTC_51092.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_1aaf2.dir\\Debug\\cmTC_1aaf2.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Creating "cmTC_51092.dir\\Debug\\cmTC_51092.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_1aaf2.dir\\Debug\\\\" /Fd"cmTC_1aaf2.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_51092.dir\\Debug\\\\" /Fd"cmTC_51092.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30158 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
           CMakeCXXCompilerABI.cpp
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_1aaf2.dir\\Debug\\\\" /Fd"cmTC_1aaf2.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_51092.dir\\Debug\\\\" /Fd"cmTC_51092.dir\\Debug\\vc142.pdb" /external:W3 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-osqbo4\\Debug\\cmTC_1aaf2.exe" /INCREMENTAL /ILK:"cmTC_1aaf2.dir\\Debug\\cmTC_1aaf2.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-osqbo4/Debug/cmTC_1aaf2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-osqbo4/Debug/cmTC_1aaf2.lib" /MACHINE:X64  /machine:x64 cmTC_1aaf2.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1aaf2.vcxproj -> C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-osqbo4\\Debug\\cmTC_1aaf2.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fic71\\Debug\\cmTC_51092.exe" /INCREMENTAL /ILK:"cmTC_51092.dir\\Debug\\cmTC_51092.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-8fic71/Debug/cmTC_51092.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/CMakeScratch/TryCompile-8fic71/Debug/cmTC_51092.lib" /MACHINE:X64  /machine:x64 cmTC_51092.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_51092.vcxproj -> C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fic71\\Debug\\cmTC_51092.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_1aaf2.dir\\Debug\\cmTC_1aaf2.tlog\\unsuccessfulbuild".
-          Touching "cmTC_1aaf2.dir\\Debug\\cmTC_1aaf2.tlog\\cmTC_1aaf2.lastbuildstate".
-        Done Building Project "C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-osqbo4\\cmTC_1aaf2.vcxproj" (default targets).
+          Deleting file "cmTC_51092.dir\\Debug\\cmTC_51092.tlog\\unsuccessfulbuild".
+          Touching "cmTC_51092.dir\\Debug\\cmTC_51092.tlog\\cmTC_51092.lastbuildstate".
+        Done Building Project "C:\\Users\\myz\\Documents\\Projects\\Space Invaders\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8fic71\\cmTC_51092.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
