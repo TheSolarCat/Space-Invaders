@@ -1,0 +1,3 @@
+C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/SpaceInvaders.dir
+C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/myz/Documents/Projects/Space Invaders/build/CMakeFiles/ZERO_CHECK.dir
